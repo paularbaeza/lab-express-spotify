@@ -26,3 +26,37 @@ padding:10px;
 border: none; 
 margin:10px
 }
+
+#eachArtist{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#artist{
+  display: flex;
+  flex-direction: column;
+  margin:20px;
+  align-items: center;
+}
+
+#eachAlbum{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+#album{
+  display: flex;
+  flex-direction: column;
+  margin:20px;
+  align-items: center;
+}
+
+#album p{
+  font-weight: bold;
+  font-size: 20px;
+}
