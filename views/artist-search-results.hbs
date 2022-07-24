@@ -1,0 +1,9 @@
+{{#each searchResults}}
+
+<h2>{{this.name}}</h2>
+
+    {{#each this.images}}
+        <img src="{{this.url}}" alt="imagen">
+    {{/each}}
+{{/each}}
+

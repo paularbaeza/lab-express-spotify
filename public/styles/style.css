@@ -1,0 +1,28 @@
+#landing-page {
+  background-image: url("../images/spotify-background.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#landing-page form{
+    background-color: rgba(226,232,239,0.8);
+    padding:40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+#landing-page button{
+background-color: #A94B4B;
+color: white;
+padding:10px;
+border: none; 
+margin:10px
+}
