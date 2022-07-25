@@ -60,3 +60,19 @@ margin:10px
   font-weight: bold;
   font-size: 20px;
 }
+
+#album button{
+  background-color: #A94B4B;
+  color: white;
+  padding:10px;
+  border: none; 
+  margin:10px
+  }
+
+  #artist button{
+    background-color: #A94B4B;
+    color: white;
+    padding:10px;
+    border: none; 
+    margin:10px
+    }

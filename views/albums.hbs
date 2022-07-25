@@ -2,9 +2,9 @@
 <div id="eachAlbum">
   {{#each album}}
     <div id="album">
-      <img src="{{this.images.1.url}}" alt="imagen" />
+      <img src="{{this.images.1.url}}" alt="imagen" width="300px" height="300px"/>
       <p>{{this.name}}</p>
-      <a href="/{{this.id}}"><button>View Albums</button></a>
+      <a href="/{{this.id}}"><button>View tracks</button></a>
     </div>
   {{/each}}
 </div>
