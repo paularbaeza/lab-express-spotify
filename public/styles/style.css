@@ -2,77 +2,94 @@
   background-image: url("../images/spotify-background.jpeg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
-#landing-page form{
-    background-color: rgba(226,232,239,0.8);
-    padding:40px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-
-}
-#landing-page button{
-background-color: #A94B4B;
-color: white;
-padding:10px;
-border: none; 
-margin:10px
+#landing-page form {
+  background-color: rgba(226, 232, 239, 0.8);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
-#eachArtist{
+#landing-page button {
+  background-color: #a94b4b;
+  color: white;
+  padding: 15px;
+  border: none;
+  margin: 10px;
+  font-size: 15px;
+}
+
+#landing-page input {
+  width: 300px;
+  height: 30px;
+}
+
+#eachArtist {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-#artist{
+#artist {
   display: flex;
   flex-direction: column;
-  margin:20px;
+  margin: 20px;
   align-items: center;
 }
 
-#eachAlbum{
+#eachAlbum {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
-#album{
+#album {
   display: flex;
   flex-direction: column;
-  margin:20px;
+  margin: 20px;
   align-items: center;
 }
 
-#album p{
+#album p {
   font-weight: bold;
   font-size: 20px;
 }
 
-#album button{
-  background-color: #A94B4B;
+#album button {
+  background-color: #a94b4b;
   color: white;
-  padding:10px;
-  border: none; 
-  margin:10px
-  }
+  padding: 10px;
+  border: none;
+  margin: 10px;
+  margin-bottom:20px;
+}
+#button-albums{
+  background-color:#A4A4A4;
+  width:300px;
+  display:flex;
+  justify-content: center;
+}
 
-  #artist button{
-    background-color: #A94B4B;
-    color: white;
-    padding:10px;
-    border: none; 
-    margin:10px
-    }
+#artist button {
+  background-color: #a94b4b;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin: 10px;
+}
+
+#button-tracks{
+  background-color:#A4A4A4;
+  width:300px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}

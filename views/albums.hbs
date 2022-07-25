@@ -3,8 +3,11 @@
   {{#each album}}
     <div id="album">
       <img src="{{this.images.1.url}}" alt="imagen" width="300px" height="300px"/>
+      <div id="button-tracks">
       <p>{{this.name}}</p>
+      
       <a href="/{{this.id}}"><button>View tracks</button></a>
+      </div>
     </div>
   {{/each}}
 </div>
